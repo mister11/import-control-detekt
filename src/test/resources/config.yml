@@ -1,0 +1,15 @@
+ImportKontrol:
+  active: true
+  base_package: "org.test"
+  allow:
+    - "org"
+    - "com"
+    - "java"
+  subpackage:
+    domain:
+      allow:
+        - "domain"
+    interfaces:
+      allow:
+        - "interfaces"
+        - "domain"
