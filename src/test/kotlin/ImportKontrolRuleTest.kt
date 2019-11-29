@@ -19,7 +19,7 @@ class ImportKontrolRuleTest {
     private val source = """
         package org.test.interfaces
         
-        import org.test.bla
+        import org.test.domain
         
         fun main() {
         }
