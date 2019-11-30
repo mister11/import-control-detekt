@@ -1,9 +1,8 @@
-ImportKontrol:
+ImportControl:
   active: true
-  base_package: "org.test"
+  base_package: "com.test"
   allow:
     - "org"
-    - "com"
     - "java"
   subpackage:
     domain:
@@ -12,4 +11,7 @@ ImportKontrol:
     interfaces:
       allow:
         - "interfaces"
+        - "application"
+    application:
+      allow:
         - "domain"
